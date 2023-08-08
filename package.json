@@ -4,7 +4,7 @@
 	"description": "testing testing",
 	"main": "index.js",
 	"scripts": {
-		"build": "npx tsc && copy \"StayInsideMe.mp3\" \"./dist/StayInsideMe.mp3\"",
+		"build": "npx tsc",
 		"start": "node ./dist/index.js"
 	},
 	"keywords": [],
